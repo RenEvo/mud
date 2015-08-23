@@ -7,10 +7,9 @@ namespace RenEvo.Mud
 
         public static void Main(string[] args)
         {
-            using (var bootstrap = new Bootstrap())
+            using (new Bootstrap())
             {
                 Console.ReadLine();
-                bootstrap.Shutdown(TimeSpan.MinValue);
             }
         }
     }

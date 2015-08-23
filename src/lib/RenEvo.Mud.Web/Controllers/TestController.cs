@@ -20,7 +20,7 @@ namespace RenEvo.Mud.Web.Controllers
         [Route(""), HttpGet]
         public async Task<object> GetAsync(string name = null)
         {
-            var result = await _system.ActorSelection("/user/Test").Ask<string>(name ?? "Steve");
+            var result = await _system.ActorSelection("/user/owin/test").Ask<string>(name ?? "Steve");
 
             _logger.WarnFormat("TestController /api/akka returned: {0}", result);
             return new { result = result };
