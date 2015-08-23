@@ -1,0 +1,6 @@
+.vs
+_Resharper.*
+bin
+obj
+packages
+*.user

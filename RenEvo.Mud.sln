@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenEvo.Mud.Console", "src\app\RenEvo.Mud.Console\RenEvo.Mud.Console.csproj", "{7856EA92-A1CA-49D1-B227-6F9E5306E60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenEvo.Mud.Common", "src\lib\RenEvo.Mud.Common\RenEvo.Mud.Common.csproj", "{508CF94F-8833-4D18-9FF4-FB14E06302D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenEvo.Mud.Common.Tests", "src\tests\RenEvo.Mud.Common.Tests\RenEvo.Mud.Common.Tests.csproj", "{39338A6F-ACB0-4612-BB97-64432FE7B87E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3F0C8E17-D703-4B20-A0E0-49163985708A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{140FE8AA-58D4-4AB4-BA4B-78B1B4902E0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B38EA96D-453C-442A-858D-6E59122463D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{081B4018-9E9D-46ED-A63B-2E916EB6BAE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{28186EEB-FBA3-4FEB-AA84-386A0F7F9A7A}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Readme.md = docs\Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenEvo.Mud.Web", "src\lib\RenEvo.Mud.Web\RenEvo.Mud.Web.csproj", "{99FCC473-BCE6-4285-8561-09216DF49740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7856EA92-A1CA-49D1-B227-6F9E5306E60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7856EA92-A1CA-49D1-B227-6F9E5306E60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7856EA92-A1CA-49D1-B227-6F9E5306E60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7856EA92-A1CA-49D1-B227-6F9E5306E60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508CF94F-8833-4D18-9FF4-FB14E06302D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508CF94F-8833-4D18-9FF4-FB14E06302D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508CF94F-8833-4D18-9FF4-FB14E06302D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508CF94F-8833-4D18-9FF4-FB14E06302D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39338A6F-ACB0-4612-BB97-64432FE7B87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39338A6F-ACB0-4612-BB97-64432FE7B87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39338A6F-ACB0-4612-BB97-64432FE7B87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39338A6F-ACB0-4612-BB97-64432FE7B87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FCC473-BCE6-4285-8561-09216DF49740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FCC473-BCE6-4285-8561-09216DF49740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FCC473-BCE6-4285-8561-09216DF49740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FCC473-BCE6-4285-8561-09216DF49740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7856EA92-A1CA-49D1-B227-6F9E5306E60C} = {081B4018-9E9D-46ED-A63B-2E916EB6BAE5}
+		{508CF94F-8833-4D18-9FF4-FB14E06302D0} = {3F0C8E17-D703-4B20-A0E0-49163985708A}
+		{39338A6F-ACB0-4612-BB97-64432FE7B87E} = {140FE8AA-58D4-4AB4-BA4B-78B1B4902E0B}
+		{3F0C8E17-D703-4B20-A0E0-49163985708A} = {B38EA96D-453C-442A-858D-6E59122463D5}
+		{140FE8AA-58D4-4AB4-BA4B-78B1B4902E0B} = {B38EA96D-453C-442A-858D-6E59122463D5}
+		{081B4018-9E9D-46ED-A63B-2E916EB6BAE5} = {B38EA96D-453C-442A-858D-6E59122463D5}
+		{99FCC473-BCE6-4285-8561-09216DF49740} = {3F0C8E17-D703-4B20-A0E0-49163985708A}
+	EndGlobalSection
+EndGlobal
